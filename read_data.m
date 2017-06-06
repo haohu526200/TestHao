@@ -1,4 +1,4 @@
-function [D,d_nBlock,block_fname] = read_data(con,block_num_p,info,hdr,header_size,replay);
+function [D,d_nBlock,block_fname] = read_data(con,block_num_p,info,)
 
 pnet(con,'setreadtimeout',0);
 
