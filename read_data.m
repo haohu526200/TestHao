@@ -1,5 +1,6 @@
 function [D,d_nBlock,block_fname] = read_data(con,block_num_p,info,)
-
+% I need to add some help text in every function I write.
+% This makes life much easier for everyone. :-)
 pnet(con,'setreadtimeout',0);
 
 block_fname = 'tmp_block.bin';
